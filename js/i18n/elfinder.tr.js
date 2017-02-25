@@ -2,7 +2,20 @@
  * Türkçe translation
  * @author I.Taskinoglu & A.Kaya <alikaya@armsyazilim.com>
  * @author Abdullah ELEN <abdullahelen@msn.com>
- * @version 2016-11-12
+ * @author <aras.sengun@onemsoft.com>
+ * @version 2017-02-25
+ */
+/**
+ * elFinder translation template
+ * use this file to create new translation
+ * submit new translation via https://github.com/Studio-42/elFinder/issues
+ * or make a pull request
+ */
+
+/**
+ * Türkçe translation
+ * @author Translator Name <translator@email.tld>
+ * @version 201x-xx-xx
  */
 (function(root, factory) {
 	if (typeof define === 'function' && define.amd) {
@@ -14,7 +27,7 @@
 	}
 }(this, function(elFinder) {
 	elFinder.prototype.i18.tr = {
-		translator : 'I.Taskinoglu & A.Kaya &lt;alikaya@armsyazilim.com&gt;, Abdullah ELEN &lt;abdullahelen@msn.com&gt;',
+		translator : 'I.Taskinoglu & A.Kaya &lt;alikaya@armsyazilim.com&gt;, Abdullah ELEN &lt;abdullahelen@msn.com&gt;, &lt;aras.sengun@onemsoft.com&gt;',
 		language   : 'Türkçe',
 		direction  : 'ltr',
 		dateFormat : 'd.m.Y H:i', // Mar 13, 2012 05:27 PM
@@ -97,9 +110,9 @@
 			'errNetMountHostReq'   : 'Sunucu gerekli.', // added 18.04.2012
 			'errSessionExpires'    : 'Uzun süre işlem yapılmadığından oturumunuz sonlandı.',
 			'errCreatingTempDir'   : 'Geçici dizin oluşturulamıyor: "$1"',
-			'errFtpDownloadFile'   : 'Unable to download file from FTP: "$1"',
-			'errFtpUploadFile'     : 'Unable to upload file to FTP: "$1"',
-			'errFtpMkdir'          : 'Unable to create remote directory on FTP: "$1"',
+			'errFtpDownloadFile'   : 'Dosya okunmadığı için FTP\'den dosya indirilemiyor: "$1"',
+			'errFtpUploadFile'     : 'Dosya okunmadığı için FTP\'ye yüklenemiyor: "$1"',
+			'errFtpMkdir'          : 'Dosya okunmadığı için FTP\'de uzak dizin oluşturulamadı: "$1"',
 			'errArchiveExec'       : 'Error while archiving files: "$1"',
 			'errExtractExec'       : 'Error while extracting files: "$1"',
 			'errNetUnMount'        : 'Unable to unmount', // from v2.1 added 30.04.2012
@@ -144,6 +157,7 @@
 			'cmdchmod'     : 'Mod değiştir', // from v2.1 added 20.6.2015
 			'cmdopendir'   : 'Open a folder', // from v2.1 added 13.1.2016
 			'cmdcolwidth'  : 'Reset column width', // from v2.1.13 added 12.06.2016
+			'cmdfullscreen': 'Full Screen', // from v2.1.15 added 03.08.2016
 			'cmdmove'      : 'Move', // from v2.1.15 added 21.08.2016
 
 			/*********************************** buttons ***********************************/
@@ -262,6 +276,7 @@
 			'confirmRm'       : 'Dosyaları kaldırmak istediğinden emin misin?<br/>Bu işlem geri alınamaz!',
 			'confirmRepl'     : 'Eski dosya yenisi ile değiştirilsin mi?',
 			'confirmConvUTF8' : 'UTF-8 değil<br/>UTF-8\'e dönüştürülsün mü?<br/>Dönüştürme sonrası kaydedebilmek için içeriğin UTF-8 olması gerekir.', // from v2.1 added 08.04.2014
+			'confirmNonUTF8'  : 'Character encoding of this file couldn\'t be detected. It need to temporarily convert to UTF-8 for editting.<br/>Please select character encoding of this file.', // from v2.1.19 added 28.11.2016
 			'confirmNotSave'  : 'Düzenlenmiş içerik.<br/>Değişiklikleri kaydetmek istemiyorsanız son yapılanlar kaybolacak.', // from v2.1 added 15.7.2015
 			'apllyAll'        : 'Tümüne uygula',
 			'name'            : 'İsim',
@@ -381,6 +396,10 @@
 			'disabled'        : 'Disabled', // from v2.1.16 added 4.10.2016
 			'emptyIncSearch'  : 'No match results in current view', // from v2.1.16 added 5.10.2016
 			'textLabel'       : 'Text lable', // from v2.1.17 added 13.10.2016
+			'minsLeft'        : '$1 mins left', // from v2.1.17 added 13.11.2016
+			'openAsEncoding'  : 'Reopen with selected encoding', // from v2.1.19 added 2.12.2016
+			'saveAsEncoding'  : 'Save with the selected encoding', // from v2.1.19 added 2.12.2016
+			'selectFolder'    : 'Select folder', // from v2.1.20 added 13.12.2016
 
 			/********************************** mimetypes **********************************/
 			'kindUnknown'     : 'Bilinmiyor',
